@@ -23,9 +23,11 @@ Quem tiver a sequência válida é declarado vencedor, caso os dois, ou nenhum, 
 2. Clone este repositório ou faça o download dos arquivos.
 3. Abra um terminal e navegue até a pasta do projeto.
 4. Certifique-se que a biblioteca extra está instalada.
-   a)instalar Requests: 'pip install requests'
-5. Execute o arquivo `main.py` para iniciar o jogo
-   a)executar: 'python3 main.py'
+   
+   a) instalar Requests: 'pip install requests'
+6. Execute o arquivo `main.py` para iniciar o jogo
+
+   a) executar: 'python3 main.py'
 
 ## Output esperado
 
