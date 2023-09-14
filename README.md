@@ -17,10 +17,17 @@ Simula um jogo de cartas entre dois jogadores, Alan e Bruno. O jogo utiliza a AP
 O jogo se baseia em distribuir 11 cartas para cada jogador e buscar uma sequência de 3 ou mais cartas de mesmo naipe. Caso isso aconteça temos uma sequência válida. 
 Quem tiver a sequência válida é declarado vencedor, caso os dois, ou nenhum, apresente uma sequência válida é declaro um empate.
 
-## Instruções
+## Instruções para execução
 
 1. Certifique-se de que você tenha Python instalado em seu ambiente.
 2. Clone este repositório ou faça o download dos arquivos.
 3. Abra um terminal e navegue até a pasta do projeto.
-4. Execute o arquivo `main.py` para iniciar o jogo
+4. Certifique-se que a biblioteca extra está instalada.
+   a)instalar Requests: 'pip install requests'
+5. Execute o arquivo `main.py` para iniciar o jogo
+   a)executar: 'python3 main.py'
+
+## Output esperado
+
+Json contendo as cartas de cada jogador juntamente com um boleano indicando se existe sequência nessas cartas e quem é o vencedor da partida
 
